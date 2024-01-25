@@ -32,9 +32,28 @@ export default function Sidebar() {
             <SidebarMenuItem text="Profile" Icon={UserIcon} />
             <SidebarMenuItem text="More" Icon={DotsCircleHorizontalIcon} />
           </div>
+
+          {/* Button */}
+
+          <button> Tweet </button>
+
+
+          {/* profile */}
+          <div className="">
+        <img
+          src="https://eightsuzuki.github.io/images/profile.png"
+          alt="user-img"
+          className="h-10 w-10 rounded-full xl:mr-2"
+        />
+        <div className="leading-5 hidden xl:inline">
+          <h4 className="font-bold">suzuki8</h4>
+          <p className="text-gray-500">@8Infu</p>
+        </div>
+        <DotsHorizontalIcon className=""/>
+      </div>
   
   
-  
+  {/*  */}
       </div>
       )
   }
