@@ -1,5 +1,14 @@
+import { SearchIcon } from "@heroicons/react/outline";
+
 export default function Widgets() {
   return (
-    <div>Widgets</div>
+    <div className="">
+        <div className="">
+            <div className="">
+                <SearchIcon className=""/>
+                <input className="" />
+            </div>
+        </div>
+    </div>
   )
 }
