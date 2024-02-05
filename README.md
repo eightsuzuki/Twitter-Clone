@@ -44,3 +44,7 @@ google cloud platform
 承認済みのリダイレクト URI
 https://twitter-v4-e528c.firebaseapp.com/__/auth/handler
 http://localhost:3000/api/auth/callback/google
+
+tailwind
+heroicons
+recoil
