@@ -12,7 +12,6 @@ import {
   UserIcon,
 } from "@heroicons/react/outline";
 import { useSession, signIn, signOut } from "next-auth/react";
-
 export default function Sidebar() {
   const { data: session } = useSession();
   return (
@@ -46,8 +45,8 @@ export default function Sidebar() {
       {/* Button */}
 
       {session ? (
-        <div className="">
-          <button className="bg-blue-400 text-white rounded-full w-40 h-12 font-bold shadow-md hover:brightness-95 text-lg hidden xl:inline">
+        <>
+          <button className="bg-blue-400 text-white rounded-full w-56 h-12 font-bold shadow-md hover:brightness-95 text-lg hidden xl:inline">
             Tweet
           </button>
 
@@ -66,7 +65,7 @@ export default function Sidebar() {
             </div>
             <DotsHorizontalIcon className="h-5 xl:ml-8 hidden xl:inline" />
           </div>
-        </div>
+        </>
       ) : (
         <button
           onClick={signIn}
