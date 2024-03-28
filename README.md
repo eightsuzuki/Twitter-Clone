@@ -1,10 +1,103 @@
+# Twitter-Clone-NextJS
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
+# Overview
+
+notSigin
+/
+
+Signin
+/
+
+/auth/signin
+
+/posts/[id]
+
+# tech
+
+tailwind
+heroicons
+recoil
+next auth
+firebase
+
+# Posts
+
+posts/O2cDWAQJbuzjLgqhBUJT
+
+# Auth
+
+# Widget
+
+# data
+
+# Twitter Clone
+
+## Description
+
+これは、学習目的で私が開発した twitter（現 X）の主要機能を実装したクローンです。以下の機能をサポートしています。
+
+- Tweet (Post)
+- Delete Tweet (Post)
+- Comment & Like Tweet (Post)
+- Signin & Signout using Google accounts
+
+## App overview
+
+### `/`
+　RootディレクトリーではTweet一覧、新規投稿フォーム、サイドバーのウィジェットが表示されます。
+
+#### notSigned　`/`
+ 未ログイン時はユーザーは新規投稿、Like、コメントを行うことができません。
+
+<p align="center"> 
+    <img width="400" alt="top page not signin" src="images/TopPageNotSignin.png"> 
+</p>
+
+#### Signed　`/`
+ ログイン時はユーザーは新規投稿、Like、コメントをすることができ、自分の投稿は出現するゴミ箱アイコンで削除することが可能になります。サイドバーに各種アイテムとログインしている自分のアカウントが表示されます。サイドバーのアイコンをクリックするとサインアウトすることができます。
+<p align="center"> 
+    <img width="400" alt="top page" src="images/TopPage.png"> 
+</p>
+
+### `/auth/signin`
+
+/posts/[id]
+
+
+<p align="center"> 
+    <img width="400" alt="top page not signin" src="images/Widgets.png"> 
+</p>
+
+<p align="center"> 
+    <img width="400" alt="top page not signin" src="images/Comments.png"> 
+</p>
+
+
+<p align="center"> 
+    <img width="400" alt="top page not signin" src="images/Post.png"> 
+</p>
+
+
+<p align="center"> 
+    <img width="400" alt="top page not signin" src="images/Delete.png"> 
+</p>
+
+### Responsive Layout
+　The app uses Tailwind CSS for responsive design. It supports layout changes on different screen sizes.
+<p align="center"> 
+    <img width="400" alt="top page not signin" src="images/TopPageResponsive.png"> 
+</p>
 
 ## Getting Started
 
-First, run the development server:
+First, install modules and run the development server:
 
 ```bash
+npm install --legacy-peer-deps
+
 npm run dev
 # or
 yarn dev
@@ -12,39 +105,4 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-
-Nextauth
-GoogleProvider を使った認証プロバイダの構成:
-
-firebase
-
-google cloud platform
-/credentials
-承認済みのリダイレクト URI
-https://twitter-v4-e528c.firebaseapp.com/__/auth/handler
-http://localhost:3000/api/auth/callback/google
-
-tailwind
-heroicons
-recoil
+Check firestore Datebase and storage expiry dates in firebase and change the rules if necessary.
