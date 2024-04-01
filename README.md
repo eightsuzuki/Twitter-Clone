@@ -64,7 +64,7 @@ NextAuthとFirebaseを使用してGoogleアカウントでSign inできるよう
 ### Post　Component
 1つのPostを表示するコンポーネントで、Postの情報を表示し、PostのLike、Commentの数を表示します。Deleteも可能です。
 <p align="center"> 
-    <img width="500" alt="Post Method" src="images/method/PostMethod.png"> 
+    <img width="600" alt="Post Method" src="images/method/PostMethod.png"> 
 </p>
 
 <p align="center"> 
@@ -75,7 +75,7 @@ NextAuthとFirebaseを使用してGoogleアカウントでSign inできるよう
 ### Comment　Component
 Postに対するCommentを表示するコンポーネントで、Commentの情報を表示します。Deleteも可能です。
 <p align="center"> 
-    <img width="500" alt="Comment Method" src="images/method/CommentMethod.png"> 
+    <img width="600" alt="Comment Method" src="images/method/CommentMethod.png"> 
 </p>
 
 <p align="center"> 
@@ -86,7 +86,7 @@ Postに対するCommentを表示するコンポーネントで、Commentの情�
 ### Comment Modal　Component
  Postに対するCommentを投稿するコンポーネントです。
 <p align="center"> 
-    <img width="500" alt="Comment Modal Method" src="images/method/CommentModalMethod.png"> 
+    <img width="600" alt="Comment Modal Method" src="images/method/CommentModalMethod.png"> 
 </p>
 
 <p align="center"> 
@@ -96,7 +96,7 @@ Postに対するCommentを表示するコンポーネントで、Commentの情�
 ### Feed　Component
 最新の投稿順に並べてPostを表示します。
 <p align="center"> 
-    <img width="500" alt="Feed Method" src="images/method/FeedMethod.png"> 
+    <img width="600" alt="Feed Method" src="images/method/FeedMethod.png"> 
 </p>
 
 <p align="center"> 
@@ -106,7 +106,7 @@ Postに対するCommentを表示するコンポーネントで、Commentの情�
 ### Signin　Component
  NextAuth.JSとFirebaseを使用し認証します。getProviderで使用可能のproviderを取得します。今回のproviderはGoogleのみを指定しておりGoogle AccountでSign inできます。
 <p align="center"> 
-    <img width="500" alt="Signin Method" src="images/method/SigninMethod.png"> 
+    <img width="600" alt="Signin Method" src="images/method/SigninMethod.png"> 
 </p>
 
 <p align="center"> 
@@ -116,7 +116,7 @@ Postに対するCommentを表示するコンポーネントで、Commentの情�
 ### Sidebar　Component
  サイドバーには、randomuserapi.comから取得したユーザー情報、saurav.techのNewsAPIを表示しています。
 <p align="center"> 
-    <img width="500" alt="Sidebar Method" src="images/method/SidebarMethod.png"> 
+    <img width="600" alt="Sidebar Method" src="images/method/SidebarMethod.png"> 
 </p>
 
 <p align="center"> 
