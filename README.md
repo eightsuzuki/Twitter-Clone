@@ -126,7 +126,7 @@ Postに対するCommentを表示するコンポーネントで、Commentの情�
 ## Responsive Layout
 このアプリはレスポンシブデザインになっており、Tailwind CSSを使用しています。
 <p align="center"> 
-    <img width="500" alt="top page not signin" src="images/TopPageResponsive.png"> 
+    <img width="400" alt="top page not signin" src="images/TopPageResponsive.png"> 
 </p>
 
 
