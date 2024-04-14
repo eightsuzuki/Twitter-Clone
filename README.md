@@ -1,7 +1,4 @@
 # Twitter-Clone
-vercelでデプロイしたアプリのURLです
-https://twitter-clone-next-js-git-main-eightsuzukis-projects.vercel.app/
-
 ## tech
 - Next.js
 - NextAuth.js
@@ -13,7 +10,7 @@ https://twitter-clone-next-js-git-main-eightsuzukis-projects.vercel.app/
 
 ## Description
 
-これは、学習目的で私が開発した twitter（現 X）の主要機能を実装したクローンです。以下の機能をサポートしています。
+学習目的で twitter（現 X）の主要機能を実装したクローンアプリです。以下の機能をサポートしています。
 
 - Tweet (Post)
 - Delete Tweet (Post)
