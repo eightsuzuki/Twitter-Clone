@@ -1,4 +1,6 @@
 # Twitter-Clone
+vercelでデプロイしたアプリのURLです
+https://twitter-clone-next-js-git-main-eightsuzukis-projects.vercel.app/
 
 ## tech
 - Next.js
