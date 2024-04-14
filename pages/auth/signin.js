@@ -8,11 +8,11 @@ export default function signin({ providers }) {
           <div key={provider.name} className="flex flex-col items-center">
             <button
               onClick={() => signIn(provider.id, { callbackUrl: "/" })}
-              class="gsi-material-button bg-white border border-gray-600 rounded-md font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-700 active:bg-opacity-25 disabled:bg-gray-100 disabled:border-gray-200 disabled:text-gray-500 disabled:opacity-50 flex items-center justify-between px-4 h-10"
+              className="gsi-material-button bg-white border border-gray-600 rounded-md font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-700 active:bg-opacity-25 disabled:bg-gray-100 disabled:border-gray-200 disabled:text-gray-500 disabled:opacity-50 flex items-center justify-between px-4 h-10"
             >
-              <div class="gsi-material-button-icon flex-shrink-0 h-5 w-5 mr-2">
+              <div className="gsi-material-button-icon flex-shrink-0 h-5 w-5 mr-2">
                 <svg
-                  class="fill-current"
+                  className="fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 48 48"
                 >
@@ -35,7 +35,7 @@ export default function signin({ providers }) {
                   <path fill="none" d="M0 0h48v48H0z"></path>
                 </svg>
               </div>
-              <span class="gsi-material-button-contents flex-grow overflow-hidden">
+              <span className="gsi-material-button-contents flex-grow overflow-hidden">
                 Sign in with Google
               </span>
             </button>
