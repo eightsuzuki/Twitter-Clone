@@ -104,10 +104,6 @@ Postに対するCommentを表示するコンポーネントで、Commentの情�
     <img width="600" alt="Signin Method" src="images/method/SigninMethod.png"> 
 </p>
 
-<p align="center"> 
-    <img width="300" alt="Signin" src="images/Signin.png"> 
-</p>
-
 ### Sidebar　Component
  サイドバーには、randomuserapi.comから取得したユーザー情報、saurav.techのNewsAPIを表示しています。
 <p align="center"> 
