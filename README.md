@@ -1,14 +1,10 @@
 # Twitter-Clone
-## tech
-- Next.js
-- NextAuth.js
-- Firebase
-- Heroicons
-- Moment.js
-- Tailwind CSS
-- Autoprefixer
+
+https://twitter-clone-next-ibfs7avi4-eightsuzukis-projects.vercel.app/
+こちらのサイトからデプロイしたものが見れます。デプロイしたものにはログイン機能は対応させていません。
 
 ## Description
+
 
 学習目的で twitter（現 X）の主要機能を実装したクローンアプリです。以下の機能をサポートしています。
 
@@ -128,6 +124,14 @@ Postに対するCommentを表示するコンポーネントで、Commentの情�
     <img width="400" alt="top page not signin" src="images/TopPageResponsive.png"> 
 </p>
 
+## tech
+- Next.js
+- NextAuth.js
+- Firebase
+- Heroicons
+- Moment.js
+- Tailwind CSS
+- Autoprefixer
 
 ## Getting Started
 
