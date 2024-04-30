@@ -1,7 +1,7 @@
 # Twitter-Clone
 
-https://twitter-clone-next-ibfs7avi4-eightsuzukis-projects.vercel.app/
-こちらのサイトからデプロイしたものが見れます。デプロイしたものにはログイン機能は対応させていません。
+https://twitter-clone-next-js-eightsuzukis-projects.vercel.app/
+こちらのサイトからデプロイしたものが見れます。
 
 ## Description
 
